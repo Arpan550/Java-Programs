@@ -6,7 +6,7 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         while(true){
-            System.out.println("Select: 1.addition, 2.subtraction, 3. multiplication, 4 division, 5. modular, 6.exit");
+            System.out.println("Select: 1.addition, 2.subtraction, 3. multiplication, 4. division, 5. modular, 6.exit");
             int op=sc.nextInt();
             if(op==6){
                 break;

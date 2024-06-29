@@ -9,6 +9,6 @@ public class AreaOfTriangle {
         double base=sc.nextDouble();
         double height=sc.nextDouble();
 
-        System.out.println("Area: "+0.5*base*height);
+        System.out.println("Area: "+(0.5*base*height));
     }
 }
