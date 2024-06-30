@@ -10,6 +10,16 @@ public class OddEven {
 
         method_by_mod(num);
         method_by_bitwise_op(num);
+        method_by_ternary_op(num);
+    }
+
+    private static void method_by_ternary_op(int num) {
+        boolean even=num%2==0?true:false;
+        if(even){
+            System.out.println("Even");
+        } else{
+            System.out.println("Odd");
+        }
     }
 
     private static void method_by_bitwise_op(int num) {

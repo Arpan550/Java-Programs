@@ -1,6 +1,6 @@
 package arrays;
 
-public class SumAndAvgOfElements {
+public class SumAndAvgOfElements1D {
     public static void main(String[] args) {
         int[] arr=new int[]{1,3,4,6,5,7,8};
         int sum=0;
