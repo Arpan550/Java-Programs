@@ -2,7 +2,7 @@ package basics;
 
 import java.util.Scanner;
 
-public class PrintAllDivisors {
+public class SumAllDivisors {
     static long sumOfFactor(int num){
         int sum=0;
         for(int i=1;i<=num;i++){
